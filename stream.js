@@ -5,8 +5,8 @@ client.once('ready', () => {
 	console.log('State Is Working Sir..');
 });
 
-const devs = ["385126161316970497"];
-const adminprefix = ["-"];
+const devs = ["452802651814625280"];
+const adminprefix = ["Z!"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
